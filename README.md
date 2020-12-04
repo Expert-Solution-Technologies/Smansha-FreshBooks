@@ -1,1 +1,1 @@
-# smai-balance-sheet-service
+# sample repo
