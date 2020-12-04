@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "typeRoots": [
+    "@types", // custom merged types must be first in a list
+    "node_modules/@types",
+  ],
+  "compilerOptions": {
+    "sourceMap": false
+  },
+  "exclude": [
+    "spec",
+    "src/**/*.mock.ts",
+    "src/public/"
+  ]
+}
